@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Raleway:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+.main{
+    position: absolute;
+}
+
+
+.second{
+    position: relative;
+    text-align: center;
+}
+
+
+.second > h1{
+    padding-top: 100px;
+    position: relative;
+    font-size: 56px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 849px;
+    left: 25%;
+}
+
+
+.second p{
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 639px;
+    color: #fff;
+    left: 32%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+button{
+    position: relative;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    color: #FFF;
+    padding: 22px 56px;
+    background-color: #AE7B3C;
+    border: none;
+    left: 44%;
+}
+
+
+.line{
+    border-bottom: 1px solid white;
+    position: relative;
+    max-width: 1200px;
+    left: 10%;
+    margin-top: 87px;
+    margin-bottom: 25px;
+}
+
+.epplarr{
+    display: flex;
+}
+
+
+.epplise{
+    display: flex;
+    gap: 0 15px;
+    position: relative;
+    left: 76%;
+}
+
+
+.arrow{
+    display: flex;
+    gap: 0 25px;
+    color: #FFF;
+    position: relative;
+    left: 10%;
+}
